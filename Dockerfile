@@ -17,6 +17,7 @@ RUN \
     libtool \
     pkg-config \
     python-docutils \
+    gettext-base \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
